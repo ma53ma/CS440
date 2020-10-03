@@ -1,0 +1,29 @@
+EXTRA PROBABILITIES:
+
+Just "LY"
+
+Overall: 95.55
+Multitag: 94.29
+Unseen: 64.30
+
+"'s" --> "LY"
+
+Overall: 95.68
+Multitag: 94.30
+Unseen: 67.37
+
+"'s" --> "LY" --> "n'"
+
+Overall: 95.68
+Multitag: 94.29
+Unseen: 67.39
+
+"'s" --> "LY" --> "n'" --> numbers
+
+Overall: 95.70
+Multitag: 94.30
+Unseen: 67.68
+
+'-' --> "'s" --> "LY" --> "n'" --> numbers
+
+Overall: 95.71
