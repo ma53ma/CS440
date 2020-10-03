@@ -1,0 +1,6 @@
+## cd to mp3 and then do this
+% Part 1 %
+python template/mp3.py --training data_zip/MP3_data_zip/train --development data_zip/MP3_data_zip/dev --stemming False --lower_case True --laplace 0.1 --pos_prior .8
+
+% Part 2 %
+python template/mp3_mixture.py --training data_zip/MP3_data_zip/train --development data_zip/MP3_data_zip/dev --stemming False --lower_case True --bigram_lambda=.5 --unigram_smoothing=.1 --bigram_smoothing=.1 --pos_prior=.6
